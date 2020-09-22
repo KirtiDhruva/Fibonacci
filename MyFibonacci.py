@@ -25,7 +25,6 @@ line2, = plt.plot(indexes[:-1], ratios1, marker='<', color='blue', linestyle='',
 line3, = plt.plot(indexes[:-1], ratios2, marker='>', color='green', linestyle='', alpha=0.5)
 
 plt.xticks(range(indexes[0], indexes[-1]+1, 2), rotation=70)
-
 plt.yticks(np.linspace(0, 2, 20), rotation=30)
 plt.title('Fibonacci Stats')
 plt.legend([line1, line2, line3], ['Normalised Series', 'Ratios1', 'Ratios2'])
