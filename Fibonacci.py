@@ -1,6 +1,5 @@
 """
 Created on Fri Sep 18 13:09:32 2020
-
 @author: Kirti Dhruva
 """
 class Fibonacci:
