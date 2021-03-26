@@ -2,6 +2,8 @@
 Created on Fri Sep 18 13:09:32 2020
 @author: Kirti Dhruva
 """
+
+
 class Fibonacci:
 
     def __init__(self):
@@ -35,7 +37,6 @@ class Fibonacci:
 
         if start == 'reset':
             self.reset()
-
         elif start != 'current':
             print(f'start: Unknown keyword "{start}"')
             return
@@ -61,7 +62,6 @@ class Fibonacci:
 
         return series, indexes
 
-
     def get_ratios1(self, count, start='current'):
 
         series, indexes = self.get_series(count, start)
@@ -81,7 +81,7 @@ class Fibonacci:
 
         for i, index in enumerate(indexes[:-1]):
             if index == 1:
-                ratios.append(0)    #could be changes to None
+                ratios.append(0)    # could be changed to None
                 continue
             ratios.append(series[i+1]/series[i])
 
