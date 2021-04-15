@@ -3,9 +3,9 @@ Created on Fri Sep 18 12:21:14 2020
 @author: Kirti Dhruva
 """
 
-from Fibonacci import Fibonacci
 import matplotlib.pyplot as plt
 import numpy as np
+from fibonacci import Fibonacci
 
 terms = 30
 
